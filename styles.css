@@ -1,0 +1,42 @@
+body{
+    background: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.color{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 0.25rem;
+    border-radius: 0.25rem;
+}
+.color-hover{
+    margin: -10rem 5rem 11rem 5rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transition: 0.2s ease-in-out all;
+}
+.red{
+    background: red;
+}
+.cyan{
+    background: cyan;
+}
+.violet{
+    background: violet;
+}
+.orange{
+    background: orange;
+}
+.pink{
+    background: pink;
+}
+.center{
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    min-width: 20rem;
+    min-height: 20rem;
+    margin: 8rem 10rem 2rem 10rem;
+}
